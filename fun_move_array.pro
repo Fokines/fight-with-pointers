@@ -7,5 +7,4 @@ SOURCES += \
         ignor_file.cpp \
         main.cpp
 
-DISTFILES += \
-    .gitignore
+DISTFILES +=
