@@ -7,4 +7,6 @@ SOURCES += \
         ignor_file.cpp \
         main.cpp
 
-DISTFILES +=
+DISTFILES += \
+    .gitignore \
+    logs/logs.txt
