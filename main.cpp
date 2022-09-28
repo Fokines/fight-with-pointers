@@ -28,7 +28,7 @@ int main()
 
   int step;
 
-  cout << "\n\nвведите сдвиг массива: ";
+  cout << "\n\n\nвведите сдвиг массива: ";
   cin >> step;
 
   moveArrayElToLeft(a, size, step);
