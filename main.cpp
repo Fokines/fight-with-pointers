@@ -19,7 +19,7 @@ int main()
   a_first = a;
   a_last = &a[size - 1];
 
-  cout << "ìàññèâ: ";
+  cout << "Ð¼Ð°ÑÑÐ¸Ð²: ";
 
   for(int i = 0; i <= a_last - a_first; i++)
   {
@@ -28,7 +28,7 @@ int main()
 
   int step;
 
-  cout << "\n\nââåäèòå ñäâèã ìàññèâà: ";
+  cout << "\n\nÐ²Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ´Ð²Ð¸Ð³ Ð¼Ð°ÑÑÐ¸Ð²Ð°: ";
   cin >> step;
 
   moveArrayElToLeft(a, size, step);
@@ -39,7 +39,7 @@ int main()
     step--;
   }*/
 
-  cout << "ìàññèâ ïîñëå ñäâèãà: ";
+  cout << "Ð¼Ð°ÑÑÐ¸Ð² Ð¿Ð¾ÑÐ»Ðµ ÑÐ´Ð²Ð¸Ð³Ð°: ";
 
   for(int i = 0; i <= a_last - a_first; i++)
   {
